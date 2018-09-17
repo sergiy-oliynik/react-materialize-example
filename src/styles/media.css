@@ -1,0 +1,28 @@
+/* width >= 993px */
+@media (min-width: 993px) {
+    nav .brand-logo {
+        position: initial;
+        float: left;
+    }
+
+    .registration {
+        float: right;
+    }
+}
+
+/* width <= 992px */
+@media (max-width: 992px) {
+    .nav .brand-logo {
+        position: absolute!important;
+    }
+
+    .side-nav a {
+        text-align: center;
+    }
+
+    .registration a {
+        float: left;
+        width: 300px;
+        text-align: center;
+    }
+}
